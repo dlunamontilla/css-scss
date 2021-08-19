@@ -55,7 +55,7 @@ Solo deben ir a propiedades de **acceso directo** de **Visual Studio Code** y lu
 "C:\Program Files\Visual..."
 ```
 
-Para agregar el parámetro `--disable-gpu`, por ejemplo:
+Para agregar al final el parámetro `--disable-gpu`, por ejemplo:
 
 ```none
 "C:\Program Files\Visual..." --disable-gpu
