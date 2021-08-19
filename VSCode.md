@@ -18,7 +18,7 @@ Ubique las líneas que empiecen por:
 Exec=/usr/share/code/code...
 ```
 
-Y agregue parámetro `--disable-gpu`, tal y como se observa a continuación:
+Y agregue el parámetro `--disable-gpu`, tal y como se observa a continuación:
 
 **Archivo:** `code.desktop`
 
