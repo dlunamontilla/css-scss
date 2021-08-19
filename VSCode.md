@@ -49,7 +49,7 @@ Finalmente, guarde los cambios.
 
 ## Usuarios Windows
 
-Solo deben ir a propiedades de acceso directo de **Visual Studio Code** y luego ubiquen algo parecido a esto:
+Solo deben ir a propiedades de **acceso directo** de **Visual Studio Code** y luego ubiquen algo parecido a esto:
 
 ```none
 "C:\Program Files\Visual..."
