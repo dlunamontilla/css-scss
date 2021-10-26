@@ -1,5 +1,13 @@
 # Educación
 
+## Recopilación de ejercicios
+
+Vaya a [Recopilación de ejercicios][1] para ver el planteamiento de cada uno de ellos con su respectiva solución.
+
+[1]: docs "Ver la lista de ejercicios recopilados"
+
+## ¿Cómo modificar el proyecto?
+
 Este repositorio es netamente educativo. En ello se colocarán ejemplos de códigos.
 
 Para modificar los estilos utilizando **SASS** instale su intérprete y ejecute en el directorio raíz la siguiente línea:
