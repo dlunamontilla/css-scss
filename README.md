@@ -50,4 +50,4 @@ Si tiene extensiones instalada en tu editor de código que permita transpilar c�
 }
 ```
 
-Luego, en `"savePath": "/css"` deberás colocar la ruta de destino de tus archivos CSS. Actualmente se está indicando que el directorio `/css` está en el directorio raíz del proyecto.
+Luego, en `"savePath": "/css"`, deberás colocar la ruta de destino de tus archivos CSS. Actualmente se está indicando que el directorio `/css` está en el directorio raíz del proyecto.
