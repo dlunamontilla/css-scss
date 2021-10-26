@@ -54,3 +54,8 @@ main {
         opacity: 0;
     }
 }
+
+.width-1 {
+    max-width: $max-width;
+    margin: 0 auto;
+}

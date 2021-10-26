@@ -1,6 +1,22 @@
 # Invertir Cadena
 
-Para invertir una cadena se puede utilizar la siguiente función:
+Crea una función que inverta un `string` que recibe como parámetro.
+
+**Ejemplo:**
+
+```js
+funcion("hello world");
+```
+
+**Debe devolver:**
+
+```js
+// dlrow olleh
+```
+
+## Solución
+
+Se puede realizar de la siguiente manera:
 
 ```js
 /**
@@ -24,7 +40,7 @@ const invertirCadena = (cadena) => {
 };
 ```
 
-Sin embargo, alternativamente se puede hacer de la siguiente manera:
+Sin embargo, alternativamente se puede hacer de esta otra forma
 
 ```js
 /**

@@ -25,6 +25,7 @@ const input = document.querySelector("#input");
 const resultados = document.querySelector("#resultados");
 
 if (input && resultados) {
+    input.value = "";
     input.oninput = function () {
         resultados.textContent = invertirCadena(this.value);
     };

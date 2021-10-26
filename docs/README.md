@@ -1,5 +1,7 @@
 # Recopilación de ejercicios
 
-## Índice de contenido
+## Ejercicios de lógica en JavaScript
 
-[Invertir Cadena](invertirCadena.md)
+### Índice de contenido
+
+-   [Invertir Cadena](invertirCadena.md)
