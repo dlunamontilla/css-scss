@@ -24,7 +24,7 @@ const palabrasRepetidas = (texto) => {
     }
 
     // Depuramos el texto:
-    let _texto = texto.replace(/[^a-záéóúñ\s\n]/gi, "").trim();
+    let _texto = texto.replace(/[^a-záéíóúñ\s\n]/gi, "").trim();
     _texto = _texto.toLowerCase();
 
     const palabras = _texto.split(" ");
