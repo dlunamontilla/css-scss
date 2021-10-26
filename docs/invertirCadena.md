@@ -59,7 +59,7 @@ const invertirCadena = (cadena) => {
 };
 ```
 
-Para ambos casos se puede utilizar escribiendo las siguientes líneas:
+Para ambos casos, la función se puede utilizar escribiendo las siguientes líneas:
 
 ```js
 const cadenaInvertida = invertirCadena("Cadena invertida");
