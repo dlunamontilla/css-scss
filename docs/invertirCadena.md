@@ -66,6 +66,4 @@ const cadenaInvertida = invertirCadena("Cadena invertida");
 console.log(cadenaInvertida);
 ```
 
-Si quiere visualizar un ejemplo en vivo, puede [presionar este enlace][1]
-
-[1]: https://dlunamontilla.github.io/educacion/practicas/01/invertir-cadena.html "Visualizar ejemplo en vivo"
+Si quiere visualizar un ejemplo en vivo, puede <a href="ir-cadena.html" target="_blank" title="Visualizar ejemplo en vivo">presionar este enlace.</a>
