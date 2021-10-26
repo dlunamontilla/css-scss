@@ -7,6 +7,15 @@
     }
 }
 
+* {
+    box-sizing: border-box;
+
+    &::before,
+    &::after {
+        box-sizing: inherit;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -87,8 +96,54 @@ a {
         color: black;
     }
 
+    &:focus {
+        background-color: rgba(white, 0.1);
+    }
+
     &:active {
         opacity: 1;
         transition: none;
     }
+}
+
+// Tablas
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+    th,
+    td {
+        padding: 5px;
+    }
+}
+
+.tabla {
+    border: 1px solid rgba(white, 0.2);
+
+    th,
+    td {
+        border: 1px solid rgba(white, 0.2);
+        padding: 0 10px;
+    }
+
+    th {
+        height: 40px;
+        background-color: darken($color-base, 10);
+    }
+
+    td {
+        height: 35px;
+    }
+
+    col:nth-of-type(2n + 1) {
+        background-color: rgba(white, 0.05);
+    }
+}
+
+.table-container {
+    position: relative;
+    overflow: auto;
+    padding: 10px;
+
+    background-color: rgba(white, 0.1);
 }

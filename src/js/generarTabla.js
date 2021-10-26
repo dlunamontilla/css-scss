@@ -2,9 +2,14 @@ import { isObject } from "./evaluar.js";
 
 /**
  *
- * @param {Array} datos
+ * @param {Array<object>} datos
+ * Debe ingresarse un array de objetos
+ *
  * @param {object} options
+ * Dentro del objeto debe haber un array denominado className: []
+ *
  * @returns {HTMLElement}
+ * Debe devolverse un elemento HTML. En este caso, una tabla.
  */
 const generarTabla = (datos, options = {}) => {
     const { className = ["table"] } = options;
@@ -54,15 +59,21 @@ const generarTabla = (datos, options = {}) => {
     return table;
 };
 
-const resultados = generarTabla([
-    { id: 1, valor: "David Luna" },
-    { id: 2, valor: "Gipsemar García" },
-    {
-        id: 3,
-        valor: "Ciencias de la computacion",
-    },
-]);
+// const resultados = generarTabla(
+//     [
+//         { id: 1, valor: "David Luna" },
+//         { id: 2, valor: "Gipsemar García" },
+//         {
+//             id: 3,
+//             valor: "Ciencias de la computacion",
+//         },
+//     ],
+//     {
+//         className: ["tabla"],
+//     }
+// );
 
-document.body.append(resultados);
+// const tableContainer = document.querySelector("#table-container");
+// if (tableContainer) tableContainer.appendChild(resultados);
 
 export { generarTabla };

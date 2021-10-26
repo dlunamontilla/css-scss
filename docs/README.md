@@ -5,3 +5,4 @@
 ### Índice de contenido
 
 -   [Invertir Cadena](invertirCadena.md)
+-   [Palabras Repetidas](palabrasRepetidas.md)

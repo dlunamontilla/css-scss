@@ -4,6 +4,13 @@
   font-family: "Open Sans", sans-serif, arial;
 }
 
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -78,9 +85,47 @@ a {
   background-color: rgba(255, 255, 255, 0.9);
   color: black;
 }
+.regresar:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 .regresar:active {
   opacity: 1;
   transition: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th,
+table td {
+  padding: 5px;
+}
+
+.tabla {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.tabla th,
+.tabla td {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0 10px;
+}
+.tabla th {
+  height: 40px;
+  background-color: #0061a1;
+}
+.tabla td {
+  height: 35px;
+}
+.tabla col:nth-of-type(2n + 1) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-container {
+  position: relative;
+  overflow: auto;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .controls__input {
