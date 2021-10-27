@@ -50,7 +50,18 @@ main {
   transition: 300ms ease;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.resultados p {
+  width: 100%;
+  margin: 0;
+}
+.resultados hr {
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+  margin: 10px auto;
 }
 .resultados:empty {
   opacity: 0;

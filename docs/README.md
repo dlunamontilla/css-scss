@@ -4,5 +4,6 @@
 
 ### Índice de contenido
 
--   [Invertir Cadena](invertirCadena.md)
--   [Palabras Repetidas](palabrasRepetidas.md)
+-   [Invertir cadena](invertirCadena.md)
+-   [Palabras repetidas](palabrasRepetidas.md)
+-   [Palabras políndromas](polindromos.md)
