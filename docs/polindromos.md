@@ -57,4 +57,4 @@ La función devolverá siempre un valor `booleano`, es decir, `true` o `false`.
 
 [Presione aquí][1] para ver el ejemplo en vivo.
 
-[1]: https://dlunamontilla.github.io/educacion/practicas/01/polindromos.html "Ver el ejemplo en vivo"
+[1]: https://dlunamontilla.github.io/educacion/practicas/01/palabras-polindromas.html "Ver el ejemplo en vivo"
