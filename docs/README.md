@@ -7,3 +7,4 @@
 -   [Invertir cadena](invertirCadena.md)
 -   [Palabras repetidas](palabrasRepetidas.md)
 -   [Palabras políndromas](polindromos.md)
+-   [Eliminar patrones](eliminar-patron.md)

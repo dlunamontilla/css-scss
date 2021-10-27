@@ -2,6 +2,7 @@
   background-color: #00243b;
   color: white;
   font-family: "Open Sans", sans-serif, arial;
+  line-height: 1.6;
 }
 
 * {
@@ -56,6 +57,13 @@ main {
 .resultados p {
   width: 100%;
   margin: 0;
+}
+.resultados pre {
+  width: 100%;
+  overflow: auto;
+  font-size: 0.65em;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
 }
 .resultados hr {
   border: 0;
